@@ -1,0 +1,409 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  font-family: "Rubik", sans-serif;
+  text-decoration: none;
+  color: #000;
+}
+
+nav {
+  width: 1280px;
+  height: 76px;
+  margin: 16px auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav>.logo {
+  width: 129px;
+  height: 44px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav>.menu {
+  width: 440px;
+  height: 44px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.auth-buttons {
+  width: 250px;
+  height: 44px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.auth-buttons>.btn {
+  border-radius: 40px;
+  padding: 8px 32px;
+}
+
+.auth-buttons>.sign-up {
+  border: 2px solid #f53855;
+}
+
+/* about */
+
+.about {
+  width: 1280px;
+  height: 478px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.about-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.about-left,
+.about-right,
+.about-right>img {
+  width: 560px;
+  height: 350px;
+}
+
+.about-left>h1 {
+  font-size: 50px;
+}
+
+.about-left>button {
+  width: 250px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f53855;
+  color: #fff;
+  border-radius: 10px;
+}
+
+/* status-container */
+.status-container {
+  width: 1152px;
+  height: 176px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0px 0px 4px 1px rgb(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.status-container>.stat-box {
+  border-left: 2px solid rgb(0, 0, 0, 0.1);
+  border-right: 2px solid rgb(0, 0, 0, 0.1);
+  width: 384px;
+  height: 104px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.status-container .box-in {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.status-container .box-in img {
+  padding-right: 20px;
+}
+.div2{
+  width: 1152px;
+  height: 550px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nex1 img{
+  width: 528px;
+  height: 431px;
+}
+.nex1{
+  margin-top: 48px;
+}
+.nex2{
+  width: 420px;
+  height: 250px;
+  margin-bottom: 180px;
+}
+.nex2 h1{
+  font-size: 35px;
+}
+.nex2 p{
+  margin-top: 10px;
+}
+.tex1{
+  margin-top: 10px;
+}
+.tex1 span{
+  margin-left: 10px;
+}
+.tex1 i{
+  border-radius: 50px;
+  color: rgb(239, 239, 239);
+  background-color: green;
+}
+.tex2{
+  margin-top: 10px;
+}
+.tex2 span{
+  margin-left: 10px;
+}
+.tex2 i{
+  border-radius: 50px;
+  color: rgb(239, 239, 239);
+  background-color: green;
+}
+.tex3{
+  margin-top: 10px;
+}
+.tex3 span{
+  margin-left: 10px;
+}
+.tex3 i{
+  border-radius: 50px;
+  color: rgb(239, 239, 239);
+  background-color: green;
+}
+.tex4{
+  margin-top: 10px;
+}
+.tex4 span{
+  margin-left: 10px;
+}
+.tex4 i{
+  border-radius: 50px;
+  color: rgb(239, 239, 239);
+  background-color: green;
+}
+.div3{
+  width: 1280px;
+  height: 1000px;
+  border: 1px solid black;
+  margin: auto;
+  
+}
+.moon{
+  text-align: center;
+}
+.noob{
+  font-size: 50px;
+}
+.noob2{
+  width: 826px;
+  height: 48px;
+  margin-left: 200px;
+  margin-top: 15px;
+  font-size: 25px;
+  color: rgb(132, 130, 130);
+}
+.cap{
+  width: 370px;
+  height: 865px;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+.box1{
+  margin-top: 64px;
+}
+.box1 img{
+  width: 160px;
+  height: 182px;
+  margin-left: 100px;
+}
+.box1 p{
+  font-size: 25px;
+  color: rgb(89, 88, 88);
+  text-align: center;
+  margin-top: 30px;
+}
+.box{
+  margin-top: 50px;
+  margin-left: 60px;
+}
+.box i{
+  border-radius: 50px;
+  background-color: green;
+  color: white;
+}
+.box small{
+  font-size: 18px;
+  color: rgb(132, 130, 130);
+}
+.box2{
+  margin-top: 15px;
+  margin-left: 60px;
+}
+.box2 i{
+  border-radius: 50px;
+  background-color: green;
+  color: white;
+}
+.box2 small{
+  font-size: 18px;
+  color: rgb(132, 130, 130);
+}
+.box3{
+  margin-top: 15px;
+  margin-left: 60px;
+}
+.box3 i{
+  border-radius: 50px;
+  background-color: green;
+  color: white;
+}
+.box3 small{
+  font-size: 18px;
+  color: rgb(132, 130, 130);
+}
+.box4{
+  margin-top: 15px;
+  margin-left: 60px;
+}
+.box4 i{
+  border-radius: 50px;
+  background-color: green;
+  color: white;
+}
+.box4 small{
+  font-size: 18px;
+  color: rgb(132, 130, 130);
+}
+.box5{
+  margin-top: 170px;
+}
+.box5 p{
+  font-size: 30px;
+  color: rgb(100, 100, 100);
+  text-align: center;
+}
+.box5 button{
+  width: 130px;
+  height: 48px;
+  border-radius: 30px;
+  border: 1px solid red;
+  background-color: white;
+  font-size: 20px;
+  color: red;
+  margin-left: 120px;
+  margin-top: 20px;
+}
+.cap{
+  width: 370px;
+  height: 865px;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+.box1{
+  margin-top: 64px;
+}
+.box1 img{
+  width: 160px;
+  height: 182px;
+  margin-left: 100px;
+}
+.box1 p{
+  font-size: 25px;
+  color: rgb(89, 88, 88);
+  text-align: center;
+  margin-top: 30px;
+}
+.box{
+  margin-top: 50px;
+  margin-left: 60px;
+}
+.box i{
+  border-radius: 50px;
+  background-color: green;
+  color: white;
+}
+.box small{
+  font-size: 18px;
+  color: rgb(132, 130, 130);
+}
+.box2{
+  margin-top: 15px;
+  margin-left: 60px;
+}
+.box2 i{
+  border-radius: 50px;
+  background-color: green;
+  color: white;
+}
+.box2 small{
+  font-size: 18px;
+  color: rgb(132, 130, 130);
+}
+.box3{
+  margin-top: 15px;
+  margin-left: 60px;
+}
+.box3 i{
+  border-radius: 50px;
+  background-color: green;
+  color: white;
+}
+.box3 small{
+  font-size: 18px;
+  color: rgb(132, 130, 130);
+}
+.box4{
+  margin-top: 15px;
+  margin-left: 60px;
+}
+.box4 i{
+  border-radius: 50px;
+  background-color: green;
+  color: white;
+}
+.box4 small{
+  font-size: 18px;
+  color: rgb(132, 130, 130);
+}
+.box5{
+  margin-top: 170px;
+}
+.box5 p{
+  font-size: 30px;
+  color: rgb(100, 100, 100);
+  text-align: center;
+}
+.box5 button{
+  width: 130px;
+  height: 48px;
+  border-radius: 30px;
+  border: 1px solid red;
+  background-color: white;
+  font-size: 20px;
+  color: red;
+  margin-left: 120px;
+  margin-top: 20px;
+}
+.box6{
+  margin-top: 15px;
+  margin-left: 60px;
+}
+.box6 i{
+  border-radius: 50px;
+  background-color: green;
+  color: white;
+}
+.box6 small{
+  font-size: 18px;
+  color: rgb(132, 130, 130);
+}
